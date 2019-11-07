@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+main{
+  width: 960px;
+  margin: 0 auto;
+}
+.blog1 {
+float: left;
+  width:300px;
+  height: auto;
+  margin:50px 30px 50px 0;
+  padding: 10px;
+  position: relative;
+  border: 1px solid #eee;
+}
+.blog2 {
+  width: 300px;
+  float: left;
+  margin:50px 30px 50px 0;
+  padding: 10px;
+  position: relative;
+  border: 1px solid #eee;
+}
+.blog3 {
+  width: 300px;
+  float: left;
+  margin:50px 0 50px 0;
+  padding: 10px;
+  position: relative;
+  border: 1px solid #eee;
+}
+ span {
+  font-size: 20px;
+  text-align: center;
+}
+
+.step-img1{
+  height: 150px;
+  width: 280px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step-img2{
+  height: 150px;
+  width: 280px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step-img3{
+  height: 150px;
+  width: 280px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.category {
+    display: inline-block;
+    padding: 5px 8px;
+    background-color: orange;
+    color: #fff;
+    font-size: 11px;
+    position: absolute;
+    top:0;
+    left: 0;
+} 
+.section {
+  margin: 0 auto;
+}
+@media screen and (max-width:768px) {
+  main {
+    width: 100%;
+  }
+  .blog1 {
+    width: 90%;
+    float: none;
+    margin: 50px auto 20px;
+  }
+  .blog2 {
+    width: 90%;
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .blog3 {
+    width: 90%;
+    float: none;
+    margin: 0 auto 50px;
+  }
+  .step-img1 {
+    width: 100%;
+    height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+  }
+  .step-img2 {
+    width: 100%;
+    height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+  }
+  .step-img3 {
+    width: 100%;
+    height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+  }
